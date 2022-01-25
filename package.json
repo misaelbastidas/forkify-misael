@@ -1,0 +1,21 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Misael Bastidas",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.9",
+    "parcel": "^2.2.1"
+  },
+  "dependencies": {
+    "core-js": "^3.20.3",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
